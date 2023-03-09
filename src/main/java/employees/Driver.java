@@ -11,5 +11,19 @@ public class Driver {
             new EmployeeIdentification("Mike", "Davenport", "666-66-6666"),
             new EmployeeIdentification("Mahnaz", "Vaziri", "777-77-7777")
         };
+        Employee[] employees = {
+                new SalariedEmployee(identities[0], 2500),
+                new HourlyEmployee(identities[1], 25, 32),
+                new HourlyEmployee(identities[2], 19, 47),
+                new CommissionEmployee(identities[3], 15, 50000),
+                new SalariedEmployee(identities[4], 1700),
+                new BaseEmployee(identities[5], 95000),
+                new CommissionEmployee(identities[6], 22, 40000)
+        };
+        
+        System.out.println("All employees:");
+        for (Employee employeeInstance : employees) {
+            System.out.println(employeeInstance);
+        }
     }
 }
