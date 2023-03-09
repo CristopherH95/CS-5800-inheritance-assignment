@@ -25,4 +25,9 @@ public class HourlyEmployee extends Employee {
     public void setWage(double wage) {
         this.wage = wage;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + String.format(", wage: $%f, hours: %f", wage, hoursWorked);
+    }
 }

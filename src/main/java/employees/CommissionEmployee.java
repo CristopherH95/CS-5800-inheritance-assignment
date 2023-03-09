@@ -25,4 +25,12 @@ public class CommissionEmployee extends Employee {
     public void setGrossSales(double grossSales) {
         this.grossSales = grossSales;
     }
+
+    @Override
+    public String toString() {
+        return (
+            super.toString() +
+            String.format(", commission rate: %%%f, gross sales: $%f", commissionRate, grossSales)
+        );
+    }
 }

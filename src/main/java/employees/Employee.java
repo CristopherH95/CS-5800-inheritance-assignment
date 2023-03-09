@@ -10,4 +10,14 @@ abstract class Employee {
     public EmployeeIdentification getIdentification() {
         return identification;
     }
+
+    @Override
+    public String toString() {
+        return String.format(
+            "Employee: %s %s (%s)",
+            identification.getFirstName(),
+            identification.getLastName(),
+            identification.getSSN()
+        );
+    }
 }
