@@ -20,7 +20,7 @@ public class Driver {
                 new BaseEmployee(identities[5], 95000),
                 new CommissionEmployee(identities[6], 22, 40000)
         };
-        
+
         System.out.println("All employees:");
         for (Employee employeeInstance : employees) {
             System.out.println(employeeInstance);

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bc5a661-df12-4e02-9763-504fad2ff7b5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employees/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employees/BaseEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/BaseEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employees/CommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/CommissionEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employees/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/HourlyEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employees/SalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/SalariedEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

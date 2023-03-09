@@ -30,7 +30,7 @@ public class CommissionEmployee extends Employee {
     public String toString() {
         return (
             super.toString() +
-            String.format(", commission rate: %%%f, gross sales: $%f", commissionRate, grossSales)
+            String.format(", commission rate: %%%.2f, gross sales: $%.2f", commissionRate, grossSales)
         );
     }
 }

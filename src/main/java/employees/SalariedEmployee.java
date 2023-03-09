@@ -18,6 +18,6 @@ public class SalariedEmployee extends Employee {
 
     @Override
     public String toString() {
-        return super.toString() + String.format(", weekly salary: $%f", weeklySalary);
+        return super.toString() + String.format(", weekly salary: $%.2f", weeklySalary);
     }
 }

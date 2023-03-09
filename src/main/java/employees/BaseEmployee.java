@@ -18,6 +18,6 @@ public class BaseEmployee extends Employee {
 
     @Override
     public String toString() {
-        return super.toString() + String.format(", base salary: $%f ", baseSalary);
+        return super.toString() + String.format(", base salary: $%.2f ", baseSalary);
     }
 }
