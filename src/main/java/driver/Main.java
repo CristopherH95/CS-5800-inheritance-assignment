@@ -1,6 +1,13 @@
-package employees;
+package driver;
 
-public class Driver {
+import employees.EmployeeIdentification;
+import employees.HourlyEmployee;
+import employees.SalariedEmployee;
+import employees.CommissionEmployee;
+import employees.BaseEmployee;
+import employees.Employee;
+
+public class Main {
     public static void main(String[] args) {
         EmployeeIdentification[] identities = {
             new EmployeeIdentification("Joe", "Jones", "111-11-1111"),

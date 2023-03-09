@@ -1,6 +1,6 @@
 package employees;
 
-abstract class Employee {
+public abstract class Employee {
     private final EmployeeIdentification identification;
 
     public Employee(EmployeeIdentification identification) {

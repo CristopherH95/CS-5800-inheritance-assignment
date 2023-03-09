@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bc5a661-df12-4e02-9763-504fad2ff7b5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/employees/BaseEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/BaseEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employees/CommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/CommissionEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employees/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/HourlyEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employees/SalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/SalariedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employees/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employees/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Grad/CS5800/projects/inheritance-assignment"
   }
-}</component>
-  <component name="RunManager" selected="Application.Driver">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="employees.Driver" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="driver" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.driver.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="employees.Main" />
       <module name="inheritance-assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="employees.*" />
+          <option name="PATTERN" value="driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="employees.Main" />
+    <configuration name="driver.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="driver.Main" />
       <module name="inheritance-assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="employees.*" />
+          <option name="PATTERN" value="driver.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,7 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.driver.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
