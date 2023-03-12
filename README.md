@@ -1,7 +1,7 @@
 # CS-5800: Inheritance Assignment
 
 This repository contains a basic inheritance implementation designed to address an assignment in CS-5800 (Advanced Software Engineering). 
-The `Driver` class implements a basic program demonstrating the instantiation of the different classes implemented here. An example of its output can be found in the `output.png` file.
+The `driver` package implements a basic program demonstrating the instantiation of the different classes implemented here. An example of its output can be found in the `output.png` file.
 
 ## Build & Run
 
